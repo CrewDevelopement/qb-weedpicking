@@ -2,6 +2,8 @@
 
 Weed Picking script for QBCore Framework
 
+Any problems contact me via discord Rapidz#2099
+
 **Add to qb-shops/config.lua**
 
 *Add into Config.Products*
@@ -48,7 +50,29 @@ Weed Picking script for QBCore Framework
 ```
     	["scissors"]						= {["name"] = "scissors",       		    		["label"] = "Weed Shears",	 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "wscissors.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Pick you some quality canabis with this"},
 	["dryer"]						= {["name"] = "dryer",       		    		["label"] = "Dryer Rack",	 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "dryer.png", 				["unique"] = true, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Dry wet canabis with this!"},
-    	["wetcanabis"]						= {["name"] = "wetcanabis",       		    		["label"] = "Wet Canabis",	 			["weight"] = 2000, 		["type"] = "item", 		["image"] = "wetcanabis.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "You should dry this!"},
+    	["wetcanabis"]						= {["name"] = "wetcanabis",       		    		["label"] = "Wet Canabis",	 			["weight"] = 2000, 		["type"] = "item", 		["image"] = "wetcanabis.png", 			["unique"] = false, 		["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "You should dry this!"},
 	["drycanabis"]						= {["name"] = "drycanabis",       		    		["label"] = "Dry Weed",	 				["weight"] = 3000, 		["type"] = "item", 		["image"] = "drycanabis.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Sell it!!"},
 ```
+ 
+ **Add Images into qb-inventory/html/images**
+ 
+ 
+ **Download and install mlo needed**
+ https://forum.cfx.re/t/hidden-weed-lab-mlo-fivem/4760558
+ 
+ **Dependencies**
+ 
+ *By Default you should have these*
+ 
+ qb-core: https://github.com/qbcore-framework/qb-core
+ 
+ qb-inventory: https://github.com/qbcore-framework/qb-inventory
+ 
+ qb-target: https://github.com/qbcore-framework/qb-target
+ 
+ Progressbar: https://github.com/qbcore-framework/progressbar
+ 
+ PolyZone: https://github.com/qbcore-framework/PolyZone
+ 
+ Hidden Weed Lab: https://forum.cfx.re/t/hidden-weed-lab-mlo-fivem/4760558
  
