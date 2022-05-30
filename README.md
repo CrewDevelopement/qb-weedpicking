@@ -34,18 +34,18 @@ Any problems contact me via discord Rapidz#2099
 ```
 *Add into Config.Locations*
 ```
-    ["weedsupplies"] = {
+["weedsupplies"] = {
         ["label"] = "Weed Picking Supplies",
-        ["coords"] = vector4(-179.12, 3026.58, 20.31, 342.06),-- Changethis to change the loco of shop
+        ["coords"] = vector4(2221.98, 5614.72, 54.9, 109.35),-- Changethis to change the loco of shop
         ["ped"] = 'a_m_y_smartcaspat_01',
         ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
         ["radius"] = 1.5,
         ["targetIcon"] = "fas fa-shopping-basket",
         ["targetLabel"] = "Open Shop",
         ["products"] = Config.Products["weedsupplies"],
-        ["showblip"] = true,
-        ["blipsprite"] = 567,--Change this to whatever you want --Default Blip
-        ["blipcolor"] = 0 --Also Change --Default Color
+        ["showblip"] = false,---True on to show blips
+        ["blipsprite"] = 52,--change if you want
+        ["blipcolor"] = 0 
     },
 ```
 
