@@ -4,6 +4,8 @@ Weed Picking script for QBCore Framework
 
 Any problems contact me via discord Rapidz#2099
 
+# Installation
+
 **Add to qb-shops/config.lua**
 
 *Add into Config.Products*
@@ -58,7 +60,7 @@ Any problems contact me via discord Rapidz#2099
  
  
  **Download and install mlo needed**
- https://forum.cfx.re/t/hidden-weed-lab-mlo-fivem/4760558
+ 
  
  **Dependencies**
  
