@@ -29,7 +29,7 @@ RegisterNetEvent('qb-weedpicking:server:sellweed', function(args)
 			Player.Functions.RemoveItem("drycanabis", 1, k)
 			Player.Functions.AddMoney('bank', payment , "drycanabis-sell")
 			TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["drycanabis"], "remove", 1)
-			TriggerClientEvent('QBCore:Notify', src, " "..source.." Sold for $"..payment, "success")
+			TriggerClientEvent('QBCore:Notify', src, " 1 Sold for $"..payment, "success")
 			TriggerClientEvent("qb-weedpicking:client:sellweed", source)
 		else
 		    TriggerClientEvent('QBCore:Notify', src, "you have no weed to sell", "error")
