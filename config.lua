@@ -27,12 +27,20 @@ Config.Blips = {
         label = "Weed Field"
     },
     {
-        blippoint = vector3(1061.71, -1978.43, 31.24),
-        blipsprite = 651,
+        blippoint = vector3(1158.69, -1652.5, 36.83),
+        blipsprite = 457,
         blipscale = 0.65,
         blipcolour = 3,
         label = "Weed Drying"
     },
+    {
+        blippoint = vector3(-1076.9, -1677.3, 4.58),
+        blipsprite = 280,
+        blipscale = 0.65,
+        blipcolour = 0,
+        label = "Weed Buyer"
+    },
+
 }
 
 Config.Picking = {
@@ -51,12 +59,12 @@ Config.Picking = {
 Config.Drying = {
     {
         zones = {
-            vector2(1114.97, -2008.14),
-            vector2(1111.14, -2005.42),
-            vector2(1107.87, -2010.28),
-            vector2(1111.82, -2013.07),
+           vector2(1143.328125, -1659.5051269532),
+           vector2(1144.8161621094, -1662.59375),
+           vector2(1143.3709716796, -1663.6717529296),
+           vector2(1141.4146728516, -1661.088256836),
         },
-        minz = 28.0,
-        maxz = 36.0,
+        minz = 36.0,
+        maxz = 38.0,
     },
 }
