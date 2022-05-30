@@ -1,5 +1,5 @@
-❮img src="images/download.png" width="100" ❯
-![](images/downlaod.png)
+
+![](images/download.png)
 
 # qb-weedpicking 
 
