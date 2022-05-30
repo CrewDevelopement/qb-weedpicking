@@ -1,6 +1,5 @@
 
 # qb-weedpicking 
-https://github.com/RapidzModzz/qb-weedpicking/blob/main/images/download.png
 
 Weed Picking script for QBCore Framework
 
