@@ -1,4 +1,4 @@
-# qb-goldpan 
+# qb-weedpicking 
 
 Weed Picking script for QBCore Framework
 
