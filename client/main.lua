@@ -257,7 +257,7 @@ end)
 
 -- Ped Spawn
 local dealerPed = {
-	{-1076.82, -1679.24, 3.61,"EL Trope",332.63,0x7E4F763F,"g_m_m_chigoon_01"}, -- Change this for location of ped
+	{-1076.82, -1679.24, 3.61,"EL Trope",332.63,0x7E4F763F,"g_m_m_chigoon_01"}, -- Ped dealer
   
   }
   Citizen.CreateThread(function()
@@ -276,21 +276,21 @@ local dealerPed = {
   end)
 
 -- Target
-Citizen.CreateThread(function ()
-    exports['qb-target']:AddBoxZone("dealer", vector3(-1076.88, -1679.42, 4.58), 1, 1, { -- Change this if you would like to change location of boxzone
-        name = "dealer",
-        heading = 335,
-        debugPoly = false,
-    }, {
-        options = {
-            {
-                type = "Client",
+exports['qb-target']:AddBoxZone("weedpicking", vector3(-1076.89, -1679.43, 4.58), 1, 1, {
+	name = "weedpicking",
+	heading = 335,
+	debugPoly = false,
+	minZ = 4.30,
+	maxZ = 6.0,
+}, {
+	options = {
+		{
+                type = "client",
                 event = "qb-weedpicking:client:sellweed",
-                icon = "fas fa-seedling",
-                label = 'Sell Weed'
-            },
-        },
-        distance = 2.5
-    })
-end)
+	        icon = "fas fa-seedling",
+		label = "Sell Weed",
 
+		},
+	},
+	distance = 2.5
+})
