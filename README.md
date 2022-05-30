@@ -1,3 +1,4 @@
+https://media.discordapp.net/attachments/976934357518397472/980792943835218020/download.png
 # qb-weedpicking 
 
 Weed Picking script for QBCore Framework
